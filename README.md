@@ -256,11 +256,10 @@ RDBMS 사용 (SQLite, PostgreSQL 등)
 
 **요구사항**
 1. 채용공고 Create.
-
 2. 채용공고를 Update.
 3. 채용공고를 Delete.
 4. 채용공고 Read.
-4-2. 채용공고 검색 Search(선택사항 및 가산점요소). _contains 이용 구상
+    - 채용공고 검색 Search(선택사항 및 가산점요소). _contains 이용 구상
 
 5. 채용 상세 페이지를 가져옵니다. - detail page 불러오는 느낌으로 채용 공고 검색으로 나오는 내용 이외에 
     ** 채용내용이 있어야 함
@@ -285,10 +284,12 @@ RDBMS 사용 (SQLite, PostgreSQL 등)
 3. 채용공고를 Delete.
 4. 채용공고 Read.
     - 채용공고 검색 Search(선택사항 및 가산점요소). _contains 이용 구상
+<img width="1330" alt="image" src="https://user-images.githubusercontent.com/89897944/175007236-e4d0ebfb-11b6-4da8-99c8-f08725060dd7.png">
 
 5. 채용 상세 페이지를 가져옵니다. - detail page 불러오는 느낌으로 채용 공고 검색으로 나오는 내용 이외에 
     - 채용내용이 있어야 함
     - 해당 회사가 올린 다른 채용공고가 추가적으로 포함되는것은 가산점 요소 (가져오는 상세페이지 작성 회사를 이용해서 검색 )
+<img width="1343" alt="image" src="https://user-images.githubusercontent.com/89897944/175007403-23904468-9fb2-4e48-9750-c6a77b5bd188.png">
     
     
 6. 사용자는 채용공고에 지원합니다(선택사항 및 가산점요소). - many to many 구상중 Work in progress
