@@ -1,7 +1,5 @@
 from django.db import models
 from user.models import User
-
-
 # user 모델은 custom user 모델을 사용
 
 # 회사
@@ -28,4 +26,4 @@ class JobPosting(models.Model):
     tech_stack = models.CharField('사용기술', max_length=100)
 
     def __str__(self):
-        return self.company
+        return f'{self.id}'
