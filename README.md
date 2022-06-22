@@ -247,10 +247,14 @@
 **요구사항 분석 및 구현 과정**
 
 필수 기술요건
-REST API 로 구현.
-ORM 사용하여 구현.
-RDBMS 사용 (SQLite, PostgreSQL 등).
-요구사항
+
+REST API 로 구현
+
+ORM 사용하여 구현
+
+RDBMS 사용 (SQLite, PostgreSQL 등)
+
+**요구사항**
 1. 채용공고 Create.
 
 2. 채용공고를 Update.
