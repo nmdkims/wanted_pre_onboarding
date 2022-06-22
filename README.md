@@ -284,9 +284,7 @@ RDBMS 사용 (SQLite, PostgreSQL 등)
 2. 채용공고를 Update.
 3. 채용공고를 Delete.
 4. 채용공고 Read.
-4-2. 채용공고 검색 Search(선택사항 및 가산점요소). _contains 이용 구상
-
-  
+    - 채용공고 검색 Search(선택사항 및 가산점요소). _contains 이용 구상
 
 5. 채용 상세 페이지를 가져옵니다. - detail page 불러오는 느낌으로 채용 공고 검색으로 나오는 내용 이외에 
     - 채용내용이 있어야 함
